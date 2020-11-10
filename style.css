@@ -25,16 +25,23 @@ body
 }
 
 
-/**
+
 .topmenu h1.ui-collapsible-heading.ui-collapsible-heading-collapsed
 {
-    
+   
+    width: 150;
+}
+
+
+/**.topmenu div.ui-collapsible.ui-collapsible-inset.ui-corner-all.ui-collapsible-themed-content.ui-collapsible-collapsed
+{
+   
 }
 **/
 
 .topmenu a.ui-collapsible-heading-toggle.ui-btn.ui-btn-icon-left.ui-btn-inherit.ui-icon-plus
 {
-    width: 60;
+    
     height: 18;
   
 
@@ -42,6 +49,7 @@ body
 
 .topmenu div.ui-collapsible-content.ui-body-inherit
 {
+    
     width: 80%;
     margin: 2;
 }
